@@ -43,3 +43,23 @@ for i in numbers:
     print(i * 2)
 double = [i * 5 for i in numbers]
 print(double)
+# python Sort List
+sortNumber = [3, 4, 34, 4, 5, 2]
+sortNumber.sort()
+print(sortNumber)
+sortString = ["a", "f", "g", "s", "t", "d"]
+sortString.sort()
+print(sortString)
+# Reverse List
+sortString.sort(reverse=True)
+print(sortString)
+# Copy a List
+listItem = ["cat", "dog", "cow", "lion", "tiger"]
+copyList = listItem.copy()
+print(copyList)
+# Join Two List
+joinList1 = [1, 2, 3]
+joinList2 = [4, 5, 6, "Tamim"]
+# joinTotal = joinList1 + joinList2
+joinList1.extend(joinList2)
+print(joinList1)
